@@ -1,11 +1,4 @@
 
-/*colores 
-#FFBD35
-#3FA796
-#8267BE
-#502064
-*/
-
 * {
     margin:0;
     box-sizing: border-box;
@@ -36,7 +29,7 @@ body {
 }
 
 .nav-link {
-    color: #d8ebe4;
+    color: #ddd;
     text-decoration: none;
 }
 .logo {
@@ -45,9 +38,8 @@ body {
 
 }
 .logo img {
-    width: 30%;
-    
-    
+    width: 170px;
+   
 }
 
 .nav-menu {
@@ -82,6 +74,11 @@ body {
     cursor: pointer;
 
 }
+@media (max-width: 992px){
+    .logo {
+        margin-left: 40px;
+    }
+}
 
 @media (max-width: 768px) {
     body {
@@ -92,8 +89,9 @@ body {
         height: 60px;
     }
 
-    .logo {
-        line-height: 60px;
+    .logo img {
+        width: 150px;
+       
     }
 
 .nav-menu {
@@ -128,11 +126,12 @@ body {
 /*Galery*/
 
 .galery-container {
-    background: #d8ebe4;
-    border: 2px solid #282846;
+    background: #282846;
+    
     border-radius: 8px;
-   display: flex;
-   max-width: 992px;
+    padding: 20px;
+    display: flex;
+    max-width: 992px;
     margin: 15px auto;
     
    
@@ -140,13 +139,14 @@ body {
 
 
 .grid-container {
-    background: #d8ebe4;
+    background: #ddd;
     width: 40%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 1fr 1fr 1fr;
     grid-gap: 4px;
-    border: 10px solid #282846;
+    border: 10px solid #ddd;
+    border-radius: 4px;
     
 
 
@@ -169,22 +169,26 @@ body {
 }
 
 .title {
-    margin: auto;
+
+   margin: auto;
 
 }
 
 .title h1 {
+    color: #ddd;
     padding: 15px;
     font-size: 2em;
     text-align: center;
 }
 
 .title h2 {
+    color: #ddd;
     text-align: center;
 }
 
 .button {
     text-align: center;
+    margin-top: 50px;
 }
 
 .button-cta {
@@ -229,5 +233,37 @@ body {
     padding: 30px;
 
 
+}
+
+.section-title {
+    color: #282846;
+}
+
+
+.slills-fab {
+    font-size: 80px;
+    color: #282846;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color:#282846;
+    text-align: center;
+    
+}
+
+.footer-fab {
+    color: #ddd;
+    
+    line-height: 50px;
+    font-size: 30px;
+
+    
 }
 
