@@ -1,11 +1,14 @@
 const navToogle = document.querySelector(".nav-toggle");
 const navMenu = document.querySelector(".nav-menu");
+//const menuItem = doccument.querySelectorAll(".nav-menu__item")
 
 navToogle.addEventListener("click", () => {
    navMenu.classList.toggle("nav-menu__visible");
 });
 
-
+//menuItem.addEventListener("click", () => {
+  //  navMenu.classList.toggle("nav-menu__invisible");
+//});
 // Guardar estado imagen activa
 let imagenActiva = 0;
 
