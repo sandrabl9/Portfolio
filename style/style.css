@@ -70,10 +70,12 @@ body {
     border: none;
     font-size: 30px;
     padding: 0 20px;
-    line-height: 60px;
     display: none;
     cursor: pointer;
 
+}
+.nav-toggle i {
+    line-height: 60px;
 }
 
 
@@ -127,10 +129,7 @@ body {
 .nav-menu__visible {
     left: 0;
 } 
-.nav-menu__invisible {
-    left: 100%;
 
-}
 
 
 /*Galery*/
